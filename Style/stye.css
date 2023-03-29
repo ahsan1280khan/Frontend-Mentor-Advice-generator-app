@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+}
+
+.advicegnerator {
+  width: min(530px, 90%);
+  height: auto;
+  min-height: 330px;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 15px;
+  padding: 45px min(5%, 45px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.advicenumber {
+  font-size: 14px;
+  color: hsl(150deg, 100%, 66%);
+  margin-bottom: 35px;
+  letter-spacing: 4px;
+}
+
+.advice {
+  color: hsl(193deg, 38%, 86%);
+  font-size: clamp(20px, 3.5vw, 28px);
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.devider {
+  width: 100%;
+  padding: 10px;
+  background-image: url("/images/pattern-divider-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.diceicon {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: hsl(150deg, 100%, 66%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -30px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.diceicon:hover {
+  box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  color: hsl(193deg, 38%, 86%);
+}
+.attribution a {
+  color: hsl(193deg, 38%, 86%);
+}/*# sourceMappingURL=stye.css.map */
